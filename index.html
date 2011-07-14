@@ -1,0 +1,158 @@
+<!doctype html>
+<!--[if lte IE 8 ]> <html lang="pt-br" class="no-js oldie" manifest="manifest.php"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="pt-br" class="no-js" manifest="cache.manifest"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Genéricos BR</title>
+	<meta name="description" content="Genéricos BR é um guia de medicamentos de referência e seus equivalentes genéricos destinado tanto a profissionais de saúde brasileiros quanto ao público em geral. Esta é uma versão para a web do aplicativo desenvolvido originalmente para iPhone.">
+	<meta name="author" content="Marcos Gurgel">
+	
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link rel="stylesheet" media="screen" href="css/bundle.css">
+	
+</head>
+<body>
+	<div id="jqt">
+		<div id="home" class="page">
+		    <div class="toolbar">
+			  <h1>Genéricos BR</h1>
+		    </div>
+		    <ul class="rounded img mainmenu">
+		    	<li class="arrow medmenu"><a href="/j/m.json" class="sticky">Medicamentos</a></li>
+		    	<li class="arrow submenu"><a href="/j/s.json" class="sticky">Substâncias</a></li>
+		    </ul>
+		    <ul class="rounded img">
+		    	<li class="arrow subinfo"><a href="#about">Sobre o Genéricos BR</a></li>
+		    </ul>
+		</div>
+		<div id="list" class="page longlist">
+		    <div class="toolbar">
+		      <h1 class="ln"></h1>
+		      <a href="#" class="back">Início</a>
+		    </div>
+			<div class="searchbar">
+				<div class="searchbox">
+					<input type="text" name="search" class="search" id="sf" placeholder="Buscar" autocapitalize="off" autocorrect="off">
+				</div>
+			</div>	
+	  		<ul class="item-list edgetoedge img" style="overflow: hidden;">
+			</ul>			
+		</div>
+		<div id="detail">
+			<div class="toolbar">
+				<h1 class="dn"></h1>
+				<a href="#" class="back dbt"></a>
+			</div>
+			<ul class="rounded">
+				<li class="hl dn"></li>
+				<li class="s dsnc"></li>
+			</ul>
+			
+			<ul class="rounded du">
+				<li class="dui"><h3>Indicações</h3><p></p></li>
+				<li class="dup"><h3>Posologia</h3><p></p></li>
+				<li class="duf"><h3>Forma Farmacêutica</h3><p></p></li>
+				<li class="dut"><h3>Interações</h3><p></p></li>
+				<li class="duc"><h3>Contra-indicações</h3><p></p></li>
+				<li class="due"><h3>Efeitos Adversos</h3><p></p></li>
+				<li class="dur"><h3>Precauções</h3><p></p></li>
+			</ul>
+
+			<ul class="rounded img">
+				<li class="arrow av"><a href="#anvisa" id="dav">Pesquisar na Anvisa</a></li>
+			</ul>
+			
+			<div class="da">
+				<h2>Disponibilidade no mercado</h2>
+				<ul class="rounded dd"></ul>
+			</div>
+			
+			<p class="footer">
+				Fonte: Anvisa
+				<br><br>
+				Informações sujeitas a alterações.
+				<br>
+				Antes de usar qualquer medicamento, consulte a bula que acompanha a embalagem.
+			</p>
+		</div>
+		<div id="anvisa">
+			<div class="toolbar">
+				<h1>Anvisa</h1>
+				<a href="#" class="back abt"></a>
+				<a href="#" class="button" rel="external" id="oib" target="_blank">Abrir</a>
+			</div>
+			<iframe id="anvisa-frame" src="" width="100%"></iframe>
+		</div>
+		<div id="about" class="page"> 
+		    <div class="toolbar">
+				<h1>Genéricos BR</h1>
+				<a href="#" class="back">Início</a>
+		    </div>
+		    <h2>Sobre o Genéricos BR</h2>
+		   	<ul class="rounded">
+		   		<li>
+		   			<p>	<img src="apple-touch-icon-57x57-precomposed.png" alt="Ícone" width="57" height="57" class="al"><br>
+		   				<b>Genéricos BR 0.9 - Versão Web</b>
+		   				<br>
+		   				<span class="sm">© 2011 Marcos Gurgel &mdash; <a href="http://tapush.com">tapush.com</a></span>
+		   			</p>
+		   			<p>
+		   			</p>
+		   			<p>
+						Genéricos BR é um guia de medicamentos de referência e seus equivalentes genéricos destinado tanto a profissionais de saúde brasileiros quanto ao público em geral. Esta é uma versão para a web do aplicativo desenvolvido originalmente para iPhone. 
+					</p>
+		   			<p>
+		   				A versão web do Genéricos BR foi desenvolvida especialmente para usuários de Android, webOS e outros smartphones.<br><br>
+		   				<b>Se você tem um iPhone, iPad ou iPod Touch, <a href="http://itunes.apple.com/br/app/genericos-br/id369562600?mt=8#" rel="external">baixe o aplicativo na App Store</a></b>
+		   			</p>
+		   		</li>
+		   	</ul>
+
+			<ul>
+				<li>
+					<p>
+						Comentários, dúvidas, bugs e correções?<br>
+						<b><a href="mailto:suporte+genweb@tapush.com">Mande um email!</a></b>
+					</p>
+				</li>
+			</ul>
+		    <h2>Créditos</h2>
+		   	<ul class="rounded">
+		   		<li>
+					<p>
+						<a href="http:/tapush.com" rel="external"><img src="images/tapush-logo.gif" height="57" width="81" alt="Tapush Logo" class="cl"></a><br>
+						Criação e desenvolvimento<br><a href="http:/tapush.com" rel="external">Marcos Gurgel, Tapush</a><br><br>
+						Fonte de dados<br><a href="http://portal.anvisa.gov.br" rel="external">Anvisa</a><br><br>
+						Ícones de pílula e erlenmeyer<br><a href="http://glyphish.com/" rel="external">Joseph Wain, Glyphish</a><br><br>
+						Bibliotecas e ferramentas utilizadas<br>
+						<a href="http://jqtouch.com/" rel="external">jQTouch</a>
+						<br>
+						<a href="http://jquery.com/" rel="external">jQuery</a>
+						<br>
+						<a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>
+					</p>
+		   		</li>
+		   	</ul>
+
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/bundle.js"></script>
+
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-620447-20']);
+	  _gaq.push(['_trackPageview']);
+      _gaq.push(['_trackPageLoadTime']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+# Logs
+logs/*
+
+# OS X
+.DS_Store
+Icon?
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Textmate
+*.tmproj
+*.tmproject
+tmtags
+
+# Windows image file caches
+Thumbs.db 
+
+# Folder config file
+Desktop.ini
+
+# Configuration file
+lib/config.php
+
+# Cache
+html/*.html
+html/meds/*.html
+html/subs/*.html
+
+h/*.html
+h/m/*.html
+h/s/*.html
+
+j/*.json
+j/m/*.json
+j/s/*.json

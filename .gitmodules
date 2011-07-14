@@ -1,0 +1,3 @@
+[submodule "lib/mysql"]
+	path = lib/mysql
+	url = git://github.com/Quixotix/PHP-MySQL-Database-Class.git

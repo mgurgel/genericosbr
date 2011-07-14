@@ -1,0 +1,191 @@
+#jqt .button, #jqt .back, #jqt .cancel, #jqt .add, #jqt .button.active, #jqt .cancel.active, #jqt .add.active {
+    -webkit-border-image: url(/images/ct/button.png) 0 5 0 5;	
+}
+
+#jqt .toolbar {
+	background: #000 url(/images/ct/toolbar.png) repeat-x;
+}
+
+#jqt .back, #jqt .back.active {
+	-webkit-border-image: url(/images/ct/backButton.png) 0 8 0 14;
+}
+
+.searchbar {
+	text-align: center;
+	height: 29px;
+	background: #ccc;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.42, rgb(157,157,157)),
+	    color-stop(0.86, rgb(230,230,230))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(157,157,157) 42%,
+	    rgb(230,230,230) 86%
+	);
+	padding: 6px 6px;
+}
+
+.searchbox {
+	display: block;
+	height: 29px;
+	background: #fff url(/images/ct/search.png) no-repeat 7px center;
+	background-size: 18px 18px;
+	-webkit-box-shadow: inset #666 0 0 2px;
+	-moz-box-shadow: inset #666 0 0 2px;
+	box-shadow: inset #666 0 0 2px;
+	border-radius: 14px;
+	overflow: hidden;
+	padding: 0 0 0 28px;
+}
+
+.searchbar .search {
+	margin: 4px 0;
+	width:100%;
+	font-size: 17px;
+	border: none !important;
+	background: #fff;
+	padding: 0;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+
+#jqt ul.rounded li {
+	color: #000;
+}
+
+ul.rounded li h3 {
+	font-size: 16px;
+	margin-bottom: 6px;
+	color: #333;
+}
+
+ul.rounded li p {
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+	margin: 3px 0;
+}
+
+ul.rounded li p:first-child {
+	margin-top: 0;
+}
+
+ul.rounded li p:last-child {
+	margin-bottom: 0;
+}
+
+ul.rounded li.hl {
+	font-size: 28px;
+}
+
+ul.rounded li.s {
+	font-size: 17px;
+}
+
+#jqt ul li.av a {
+	color: #666;
+	font-size: 17px;
+}
+
+p.footer {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	font-style: italic;
+	font-size: 10px;
+	color: #666;
+	margin-bottom: 16px;
+}
+
+/* MENU ICONS */
+
+#jqt ul.img li a {
+	padding-left: 42px;
+	background-size: 29px 29px;
+}
+
+
+#jqt ul.img li.medmenu a {
+	background: url(/images/icons/li-pill.png) no-repeat 6px center;
+}
+
+#jqt ul.img li.submenu a {
+	background: url(/images/icons/li-beaker.png) no-repeat 6px center;
+}
+
+#jqt ul.img li.subinfo a {
+	background: url(/images/icons/li-info.png) no-repeat 6px center;
+}
+
+#jqt ul.img li.av a {
+	background: url(/images/icons/li-anvisa.png) no-repeat 6px center;
+}
+
+#jqt ul.img li.hi a {
+	background: url(/images/icons/li-leaflet.png) no-repeat 6px center;
+}
+
+#jqt ul.img li a.active {
+ 	background: #194fdb url(/images/ct/loading.gif) no-repeat 6px center;
+	color: #fff !important;
+}
+
+/* RETINA DISPLAY */
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+	.searchbox {
+		background-image: url(/images/ct/search@2x.png);
+	}
+
+	#jqt ul.img li.medmenu a {
+		background-image: url(/images/icons/li-pill@2x.png);
+	}
+	
+	#jqt ul.img li.submenu a {
+		background-image: url(/images/icons/li-beaker@2x.png);
+	}
+	
+	#jqt ul.img li.subinfo a {
+		background-image: url(/images/icons/li-info@2x.png);
+	}
+	
+	#jqt ul.img li.av a {
+		background-image: url(/images/icons/li-anvisa@2x.png);
+	}
+	
+	#jqt ul.img li.hi a {
+		background-image: url(/images/icons/li-leaflet@2x.png);
+	}
+
+	#jqt ul.img li a.active {
+ 		background-image: url(/images/ct/loading@2x.gif);
+ 	}
+}
+
+#jqt #about li a {
+	display: inline;
+	color: #194fdb;
+}
+
+#about li p {
+	text-align: center;
+	margin: 8px 0;
+}
+
+#about .al {
+	border-radius: 5px;
+	margin-bottom: 10px;;
+}
+
+#about .cl {
+	margin-bottom: 5px;;
+}
+
+#about .sm {
+	font-size: 12px;
+}
