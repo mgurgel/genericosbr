@@ -38,3 +38,6 @@ h/s/*.html
 j/*.json
 j/m/*.json
 j/s/*.json
+
+json.php
+lib/*

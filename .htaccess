@@ -283,6 +283,14 @@ FileETag None
   RewriteEngine On
 </IfModule>
 
+# ----------------------------------------------------------------------
+# JSON Requests
+# ----------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+	RewriteRule ^j/(m|s)\.json?$ json.php?type=$1 [L,QSA]
+	RewriteRule ^j/(m|s)/([0-9]+)\.json?$ json.php?type=$1&id=$2 [L,QSA]
+</IfModule>
 
 
 # ----------------------------------------------------------------------
